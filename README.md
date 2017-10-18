@@ -1,0 +1,2 @@
+# ActivityLifeCycleTest
+Personal practice use
