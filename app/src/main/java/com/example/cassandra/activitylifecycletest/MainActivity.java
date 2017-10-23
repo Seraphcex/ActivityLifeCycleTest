@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //intent结合Bundle的使用
-                String tempData = "This is what you have wrote in MainActivity yeah";
+                String tempData = "This is what you have wrote in MainActivity";
                 Bundle bundle = new Bundle();
                 bundle.putString("test_bundle",tempData);
                 Intent intent = new Intent(MainActivity.this,NormalActivity.class);
